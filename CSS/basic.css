@@ -1,0 +1,302 @@
+header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #333333;
+    opacity: 0.9;
+    border-radius: 15px;
+    border-style: solid;
+    color: white;
+    height: 100px;
+}
+html{
+    background-color: #f2f2f2;
+}
+
+footer{
+    height: 70px;
+    position: absolute;
+    bottom:0;
+}
+header{
+    height: 125px;
+}
+body{
+    width: 99%;
+    padding-bottom: 70px;
+}
+.zaglavlje p{
+    text-align: right;
+    width: 20%;
+    position: absolute;
+    right: 3%;
+    left: auto;
+    top: 12px;
+    bottom: auto;
+    font-size: 20px;
+}
+.zaglavlje h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -85px;
+}
+
+.dropdown {
+    float:left;
+}
+
+#nav li{
+    float: left;
+    margin-left:1%;
+    margin-top: -1.5%;
+}
+#nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#nav ul{
+    list-style-type: none;
+}
+#nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+ol{
+    font-family: "Times New Roman";
+    font-size: 25px;
+}
+.oautoruTekst{
+    top: 100px;
+    position: relative;
+    left: 30%;
+    display: inline-block;
+}
+.oautoruSlika{
+    top: 100px;
+    position: relative;
+    display: inline-block; 
+    left: 27%;
+}
+.formaUnos{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #4a4a4a;
+    width: 30%;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    left: 35%;
+}
+
+.formaUnos label{
+    display: block;
+    width: 30%; 
+    float: left;
+    clear: both;
+    left: 20px;
+    font-size: 18px;
+}
+
+.lijevo_oglas{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+}
+.desno_oglas{
+    position: absolute;
+    right: 0%;
+}
+
+.lijevo_oglas_index{
+    width: 600px;
+    height: 80px;
+    position: absolute;
+}
+.desno_oglas_index{
+    width: 600px;
+    height: 80px;
+    right: 0px;
+    position: absolute;
+    top: 235px;
+}
+
+.dolje_oglas{
+    position: absolute;
+    right: 40%;
+    margin-top: 50px;
+}
+
+.red{
+    text-align: center;
+    clear: left;
+}
+
+.navLinkovi{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.navLinkovi:hover{
+    background-color: #555;
+}
+
+#sobeTablica {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#sobeTablica td, #sobeTablica th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#sobeTablica tr:nth-child(even){background-color: #f2f2f2;}
+
+#sobeTablica tr:hover {background-color: #ddd;}
+
+#sobeTablica th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #404040;
+    color: white;
+}
+
+.button {
+    background-color: #e7e7e7; 
+    border: none;
+    color: white;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button:hover {
+    background-color: #e7e7e7;
+}
+
+.prikazSlike1 {
+    width: 27%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 36.5%;
+    margin-bottom: 60px;
+}
+
+.prikazSlike2 {
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.galerija1 {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 60px;
+    float: right;
+    margin-right: 60px;
+}
+
+.galerija2 {
+    text-align: center;
+    padding: 5px 20px;
+}
+
+
+.dropbtn {
+    margin-top: -21px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: 17px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+#map {
+    height: 400px; 
+    width: 100%;  
+}
+.isa_info, .isa_success, .isa_warning, .isa_error {
+    margin: 10px 0px;
+    padding:12px;
+
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+hr {
+    height: 8px;
+    color: #e2f2f2;
+    background: #e2e2e2;
+    font-size: 0;
+    border: 0;
+}
+.index h2{
+    color: #4a4a4a;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.index p{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
